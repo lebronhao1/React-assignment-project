@@ -1,0 +1,19 @@
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { Provider } from 'react-redux';
+import { store } from './store';
+import App from "./App";
+import "./App.css";
+import { setProducts } from './store/productsSlice';
+import mockProducts from './pages/products/mockProducts';
+
+// Initialize products
+store.dispatch(setProducts(mockProducts));
+
+createRoot(document.getElementById("root")!).render(
+  <StrictMode>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </StrictMode>
+);
