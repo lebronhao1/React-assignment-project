@@ -11,9 +11,6 @@ importers:
       '@reduxjs/toolkit':
         specifier: ^2.7.0
         version: 2.9.0(react-redux@9.2.0(@types/react@19.2.2)(react@19.2.0)(redux@5.0.1))(react@19.2.0)
-      '@types/event-source-polyfill':
-        specifier: ^1.0.5
-        version: 1.0.5
       react:
         specifier: ^19.0.0
         version: 19.2.0
@@ -1000,9 +997,6 @@ packages:
 
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
-
-  '@types/event-source-polyfill@1.0.5':
-    resolution: {integrity: sha512-iaiDuDI2aIFft7XkcwMzDWLqo7LVDixd2sR6B4wxJut9xcp/Ev9bO4EFg4rm6S9QxATLBj5OPxdeocgmhjwKaw==}
 
   '@types/glob@7.2.0':
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
@@ -4910,8 +4904,6 @@ snapshots:
       '@babel/types': 7.28.4
 
   '@types/estree@1.0.8': {}
-
-  '@types/event-source-polyfill@1.0.5': {}
 
   '@types/glob@7.2.0':
     dependencies:
