@@ -1,0 +1,18 @@
+.movie-details-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .loading {
+    text-align: center;
+    padding: 40px;
+    font-size: 1.2rem;
+    color: #666;
+  }
+}
+
+@media (max-width: 768px) {
+  .movie-details-container {
+    padding: 10px;
+  }
+}

@@ -1,3 +1,5 @@
+const { TextEncoder, TextDecoder } = require('util');
+
 module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'jsdom',
@@ -14,5 +16,9 @@ module.exports = {
   setupFilesAfterEnv: ['<rootDir>/src/setupTests.ts'],
   transformIgnorePatterns: [
     '/node_modules/(?!@testing-library)'
-  ]
+  ],
+  globals: {
+    TextEncoder,
+    TextDecoder
+  }
 }
