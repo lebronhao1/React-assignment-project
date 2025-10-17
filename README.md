@@ -1,11 +1,11 @@
-# React Movie App
+# React Products App
 
-A responsive movie listing application built with React, TypeScript and Vite.
+A responsive products listing application built with React, TypeScript and Vite.
 
 ## Features
 
 - Responsive grid layout with multiple breakpoints
-- Movie filtering and sorting
+- Product filtering and sorting
 - Dark theme design
 
 ## Prerequisites
